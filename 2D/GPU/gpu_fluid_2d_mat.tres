@@ -1,0 +1,6 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://c2pxeccvw3ybg"]
+
+[ext_resource type="Shader" path="res://2D/GPU/gpu_fluid_2d.gdshader" id="1_i58mw"]
+
+[resource]
+shader = ExtResource("1_i58mw")

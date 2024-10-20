@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://ns3ct23b3vbe"
+path="res://.godot/imported/Sort.glsl-b26e6a73da6ac3b68f1b2aaa1aded676.res"
+
+[deps]
+
+source_file="res://GPUSort/Shaders/Sort.glsl"
+dest_files=["res://.godot/imported/Sort.glsl-b26e6a73da6ac3b68f1b2aaa1aded676.res"]
+
+[params]
+

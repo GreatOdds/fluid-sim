@@ -1,0 +1,7 @@
+[gd_resource type="MultiMesh" load_steps=2 format=3 uid="uid://34cywu8nu5ne"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_non4u"]
+
+[resource]
+use_custom_data = true
+mesh = SubResource("QuadMesh_non4u")

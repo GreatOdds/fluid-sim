@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dikt6xdnwlw60"
+path="res://.godot/imported/ExternalForces.glsl-1daf9abb5bc2b6c14d6a5d42b675576b.res"
+
+[deps]
+
+source_file="res://2D/GPU/Shaders/ExternalForces.glsl"
+dest_files=["res://.godot/imported/ExternalForces.glsl-1daf9abb5bc2b6c14d6a5d42b675576b.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://caucs1wl7wmqd"
+path="res://.godot/imported/PositionsImage.glsl-af540f1959378e11187abaeeefb4bd83.res"
+
+[deps]
+
+source_file="res://2D/GPU/Shaders/Includes/PositionsImage.glsl"
+dest_files=["res://.godot/imported/PositionsImage.glsl-af540f1959378e11187abaeeefb4bd83.res"]
+
+[params]
+

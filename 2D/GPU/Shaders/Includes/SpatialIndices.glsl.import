@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://crkyd864vuauy"
+path="res://.godot/imported/SpatialIndices.glsl-f0f4d57f3535756f8dba5ba0c19d6597.res"
+
+[deps]
+
+source_file="res://2D/GPU/Shaders/Includes/SpatialIndices.glsl"
+dest_files=["res://.godot/imported/SpatialIndices.glsl-f0f4d57f3535756f8dba5ba0c19d6597.res"]
+
+[params]
+

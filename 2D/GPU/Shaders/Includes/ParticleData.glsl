@@ -1,0 +1,1 @@
+layout(set = 0, binding = 8, rgba32f) writeonly restrict uniform image2D ParticleData;

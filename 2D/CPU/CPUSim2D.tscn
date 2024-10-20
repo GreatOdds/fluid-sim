@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dy0bn3itv5h8w"]
+
+[ext_resource type="Script" path="res://2D/CPU/CPUFluid2D.cs" id="1_ga0ip"]
+[ext_resource type="Material" uid="uid://bnfpained1hhy" path="res://Shared/fluid_2d_mat.tres" id="2_fhfg1"]
+[ext_resource type="MultiMesh" uid="uid://34cywu8nu5ne" path="res://2D/CPU/cpu_fluid_2d_multimesh.tres" id="3_1wa65"]
+
+[node name="CPUSim2D" type="Node"]
+
+[node name="CPUFluid2D" type="Node2D" parent="."]
+script = ExtResource("1_ga0ip")
+NumParticles = 3072
+viscosityStrength = 0.2
+interactionRadius = 1.25
+interactionStrength = 200.0
+particleMaterial = ExtResource("2_fhfg1")
+particleMultiMesh = ExtResource("3_1wa65")
+
+[node name="MultiMeshInstance2D" type="MultiMeshInstance2D" parent="."]
+material = ExtResource("2_fhfg1")
+multimesh = ExtResource("3_1wa65")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(64, 64)

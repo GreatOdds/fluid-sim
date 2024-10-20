@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dejwjr5frvo32"
+path="res://.godot/imported/UpdateSpatialHash.glsl-90afd1b107651129646677663d8e0edb.res"
+
+[deps]
+
+source_file="res://2D/GPU/Shaders/UpdateSpatialHash.glsl"
+dest_files=["res://.godot/imported/UpdateSpatialHash.glsl-90afd1b107651129646677663d8e0edb.res"]
+
+[params]
+

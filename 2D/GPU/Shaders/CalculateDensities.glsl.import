@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://deipmokxexpm8"
+path="res://.godot/imported/CalculateDensities.glsl-9de902827af9e232d25e4ad466f78191.res"
+
+[deps]
+
+source_file="res://2D/GPU/Shaders/CalculateDensities.glsl"
+dest_files=["res://.godot/imported/CalculateDensities.glsl-9de902827af9e232d25e4ad466f78191.res"]
+
+[params]
+

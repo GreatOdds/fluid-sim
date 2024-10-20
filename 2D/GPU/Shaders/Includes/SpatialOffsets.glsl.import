@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://bpdijg8jjp4wa"
+path="res://.godot/imported/SpatialOffsets.glsl-8a31d17185a23bbc5286094593ead4b2.res"
+
+[deps]
+
+source_file="res://2D/GPU/Shaders/Includes/SpatialOffsets.glsl"
+dest_files=["res://.godot/imported/SpatialOffsets.glsl-8a31d17185a23bbc5286094593ead4b2.res"]
+
+[params]
+

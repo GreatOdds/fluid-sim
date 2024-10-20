@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=3 uid="uid://domxkt5cjju5d"]
+
+[ext_resource type="Script" path="res://2D/GPU/ParticleSpawner2D.cs" id="1_2u72o"]
+[ext_resource type="Script" path="res://2D/GPU/GPUFluid2D.cs" id="2_41vsl"]
+[ext_resource type="Material" uid="uid://bnfpained1hhy" path="res://Shared/fluid_2d_mat.tres" id="3_7y4g1"]
+[ext_resource type="Material" uid="uid://c2pxeccvw3ybg" path="res://2D/GPU/gpu_fluid_2d_mat.tres" id="3_qi5wq"]
+
+[node name="GPUSim2D" type="Node"]
+
+[node name="ParticleSpawner" type="Node" parent="."]
+script = ExtResource("1_2u72o")
+particleCount = 16384
+SpawnSize = Vector2(7, 7)
+jitterStrength = 0.02
+
+[node name="GPUFluid2D" type="Node2D" parent="." node_paths=PackedStringArray("spawner", "gpuParticles2D")]
+script = ExtResource("2_41vsl")
+targetDensity = 230.0
+viscosityStrength = 0.05
+BoundsSize = Vector2(16, 16)
+obstacleSize = Vector2(1, 6)
+obstacleCenter = Vector2(2.225, 0)
+interactionRadius = 0.2
+interactionStrength = 2000.0
+spawner = NodePath("../ParticleSpawner")
+gpuFluidMaterial = ExtResource("3_qi5wq")
+cpuFluidMaterial = ExtResource("3_7y4g1")
+gpuParticles2D = NodePath("GPUParticles2D")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="GPUFluid2D"]
+material = ExtResource("3_7y4g1")
+amount = 1
+process_material = ExtResource("3_qi5wq")
+explosiveness = 1.0
+local_coords = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(50, 50)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+texture_filter = 1
+custom_minimum_size = Vector2(50, 50)
+offset_right = -2.304
+offset_bottom = -2.592
+scale = Vector2(3, 3)
+expand_mode = 1
