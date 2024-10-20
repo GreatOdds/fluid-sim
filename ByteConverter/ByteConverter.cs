@@ -1,9 +1,11 @@
 using System;
-using System.Net.Http.Headers;
 using System.Runtime.InteropServices;
 
 public class ByteConverter
 {
+    // https://github.com/jasonjmcghee/compute-shaders/blob/main/Compute/ComputeManager.cs
+    // Is there a better way?
+
     public static byte[] ConvertToBytes<T>(T param) where T : struct
     {
         var size = Marshal.SizeOf(param);
